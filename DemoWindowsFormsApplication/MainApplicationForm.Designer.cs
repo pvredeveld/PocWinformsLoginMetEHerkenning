@@ -101,7 +101,7 @@
             this.hostTextBox.Name = "hostTextBox";
             this.hostTextBox.Size = new System.Drawing.Size(480, 20);
             this.hostTextBox.TabIndex = 6;
-            this.hostTextBox.Text = "http://localhost:56000";
+            this.hostTextBox.Text = "https://acc.ep-online.nl/api";
             // 
             // label2
             // 

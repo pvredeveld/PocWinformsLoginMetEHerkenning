@@ -24,7 +24,7 @@ namespace DemoWindowsFormsApplication
                 return;
 
             var visitor = new TaskStringVisitor();
-            using (var frm = new RetrieveTokenForm($"{apiHostUrl}/token", visitor))
+            using (var frm = new RetrieveTokenForm($"{apiHostUrl}","/token", visitor))
             {
                 frm.Show(this);
                 var bearer = await visitor.Task;
